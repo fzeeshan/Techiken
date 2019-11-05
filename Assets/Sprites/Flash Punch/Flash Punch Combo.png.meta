@@ -1,0 +1,785 @@
+fileFormatVersion: 2
+guid: be6556de7da50de4bbffb19f6639d97f
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Flash Punch Combo_0
+    21300002: Flash Punch Combo_1
+    21300004: Flash Punch Combo_2
+    21300006: Flash Punch Combo_3
+    21300008: Flash Punch Combo_4
+    21300010: Flash Punch Combo_5
+    21300012: Flash Punch Combo_6
+    21300014: Flash Punch Combo_7
+    21300016: Flash Punch Combo_8
+    21300018: Flash Punch Combo_9
+    21300020: Flash Punch Combo_10
+    21300022: Flash Punch Combo_11
+    21300024: Flash Punch Combo_12
+    21300026: Flash Punch Combo_13
+    21300028: Flash Punch Combo_14
+    21300030: Flash Punch Combo_15
+    21300032: Flash Punch Combo_16
+    21300034: Flash Punch Combo_17
+    21300036: Flash Punch Combo_18
+    21300038: Flash Punch Combo_19
+    21300040: Flash Punch Combo_20
+    21300042: Flash Punch Combo_21
+    21300044: Flash Punch Combo_22
+    21300046: Flash Punch Combo_23
+    21300048: Flash Punch Combo_24
+    21300050: Flash Punch Combo_24
+    21300052: Flash Punch Combo_25
+    21300054: Flash Punch Combo_26
+    21300056: Flash Punch Combo_28
+    21300058: Flash Punch Combo_27
+    21300060: Flash Punch Combo_28
+    21300062: Flash Punch Combo_29
+    21300064: Flash Punch Combo_30
+    21300066: Flash Punch Combo_33
+    21300068: Flash Punch Combo_31
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Flash Punch Combo_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8790
+        width: 1665
+        height: 879
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701d4dc4ed9783d4db1f4ea940c41e6e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash Punch Combo_1
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 8790
+        width: 1665
+        height: 879
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ddf585eb735ae4785eca97879ee06c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash Punch Combo_2
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 8790
+        width: 1665
+        height: 879
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca726bb9c05970a4bbb98c57e546416f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash Punch Combo_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7911
+        width: 1665
+        height: 879
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e569b0881e393f45a6ee5cc4f252ffb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash Punch Combo_4
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 7911
+        width: 1665
+        height: 879
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa6e874a880fbc41b68d2b695cfb4eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash Punch Combo_5
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 7911
+        width: 1665
+        height: 879
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3840d7365555f0488b48164cfc063d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash Punch Combo_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7032
+        width: 1665
+        height: 879
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd8bff05856da74dbfd26783655eb20
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash Punch Combo_7
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 7032
+        width: 1665
+        height: 879
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd8b01e36d801e4f9ac2aee9dd5f4ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash Punch Combo_8
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 7032
+        width: 1665
+        height: 879
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42e79408cf13054884a49a9f61727d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash Punch Combo_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6153
+        width: 1665
+        height: 879
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e87acac4da0be14caf525e7cdc9f224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash Punch Combo_10
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 6153
+        width: 1665
+        height: 879
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4de3f0e36fa9b347bdbbd9b8b987259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash Punch Combo_11
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 6153
+        width: 1665
+        height: 879
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2468709db572d49bbc6b0b9dd08e38
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash Punch Combo_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5274
+        width: 1665
+        height: 879
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24a6be09c3194d4da1ec205f6e8d80d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash Punch Combo_13
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 5274
+        width: 1665
+        height: 879
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058723250373c6f458d5bb389fc34dca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash Punch Combo_14
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 5274
+        width: 1665
+        height: 879
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2060140ce1a3348bb83ce4dfaf8c1d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash Punch Combo_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4395
+        width: 1665
+        height: 879
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037b9b5071967a541bee4c4cc126635c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash Punch Combo_16
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 4395
+        width: 1665
+        height: 879
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9fbe09a67b954a47a230e18df768b9b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash Punch Combo_17
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 4395
+        width: 1665
+        height: 879
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1740efc080d05b04081b10110cef0d54
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash Punch Combo_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3516
+        width: 1665
+        height: 879
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1eb48cb42ee8149a86c167dbb342be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash Punch Combo_19
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 3516
+        width: 1665
+        height: 879
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fcbba5e48989534fb528f13a1899ac8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash Punch Combo_20
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 3516
+        width: 1665
+        height: 879
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de65555b5e3aaa348af555c0fecc407f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash Punch Combo_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2637
+        width: 1665
+        height: 879
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94dd3dcbb7ac7884998acf353b89d5b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash Punch Combo_22
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 2637
+        width: 1665
+        height: 879
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e736290436ace841b64c2eb93f54212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash Punch Combo_23
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 2637
+        width: 1665
+        height: 879
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3227329f4c4e14a41966cd669942e419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash Punch Combo_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1758
+        width: 1665
+        height: 879
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a1d70fa7cfb30479c9528198023203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash Punch Combo_25
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 1758
+        width: 1665
+        height: 879
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb47a05b6b52a0e4d9d6ad88025e661a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash Punch Combo_26
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 1758
+        width: 1665
+        height: 879
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9fec4e09497524d9bbc78e1752d26b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash Punch Combo_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 879
+        width: 1665
+        height: 879
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee7dd9d2c3b51142a9210d1daa9f832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash Punch Combo_28
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 879
+        width: 1665
+        height: 879
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7290ce4deb9d48a418f90ac51e214203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash Punch Combo_29
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 879
+        width: 1665
+        height: 879
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a0b38dd7693e548887188201d85d6d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash Punch Combo_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1665
+        height: 879
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7655a45f3c65fd54baa5107113905ccc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash Punch Combo_31
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 0
+        width: 1665
+        height: 879
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35eb4828e747c4541aa80c64e0754dd4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 7f78a3c2a17469d4ea05cd9d838d2555
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
