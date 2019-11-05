@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class HitScript : MonoBehaviour
 {
@@ -16,7 +14,6 @@ public class HitScript : MonoBehaviour
     {
 
     }
-
     void OnTriggerEnter2D(Collider2D obj){
         Debug.Log("Player " + player + " attacking.");
         Debug.Log(gameObject.name);

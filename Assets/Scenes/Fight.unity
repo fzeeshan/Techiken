@@ -321,7 +321,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d771d0b78b2a8ed44b1f85959d1ccffd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthbar: {fileID: 769120688}
+  healthbar: {fileID: 235577868}
 --- !u!114 &198905774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -474,6 +474,7 @@ GameObject:
   - component: {fileID: 323902267}
   - component: {fileID: 323902269}
   - component: {fileID: 323902266}
+  - component: {fileID: 323902275}
   - component: {fileID: 323902274}
   m_Layer: 0
   m_Name: Player2
@@ -491,10 +492,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 323902265}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d771d0b78b2a8ed44b1f85959d1ccffd, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f9a56839e147bf45b58416ae08b29c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthbar: {fileID: 235577868}
+  player: 1
 --- !u!61 &323902267
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -513,11 +514,11 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 1}
     oldSize: {x: 16.65, y: 8.79}
-    newSize: {x: 3.04, y: 5.98}
+    newSize: {x: 3.6799998, y: 5.62}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
-  m_AutoTiling: 1
+  m_AutoTiling: 0
   serializedVersion: 2
   m_Size: {x: 3.0439258, y: 5.9596663}
   m_EdgeRadius: 0
@@ -645,7 +646,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 323902265}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.85, y: 4.2755866, z: -0.034927763}
+  m_LocalPosition: {x: 8.3, y: 4.2755866, z: -0.034927763}
   m_LocalScale: {x: -1, y: 0.99999994, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -660,10 +661,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 323902265}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2533a6d2b44218449f80c84aee81550, type: 3}
+  m_Script: {fileID: 11500000, guid: 8cb9bbb2be3897245927ea3cadbe4800, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: 2
+  healthbar: {fileID: 769120688}
+--- !u!114 &323902275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 323902265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6fd6e764d5614740866e3580639e20c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitPicture: {fileID: 1050477038856559142, guid: d70dc811347ec2e44bc45ad57d873345,
+    type: 3}
+  blockPicture: {fileID: 1189717212574204117, guid: b51ef9dc7918d7f44b490a8c80a54ea0,
+    type: 3}
 --- !u!1 &507359679
 GameObject:
   m_ObjectHideFlags: 0

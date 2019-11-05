@@ -1,8 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class CharacterAnim : MonoBehaviour {
+
     private Animator anim;
     float dirX;//initialize movement
     float moveSpeed = 4.0f;
@@ -15,11 +14,11 @@ public class CharacterAnim : MonoBehaviour {
     bool isSkip = false;
     bool isPunch = false;
     bool isKick = false;
-    bool isAttack = false;
+    bool isAttack = false;  
 
 
 
-    void Start(){
+    void Start() {
         anim = GetComponent<Animator>();
         if(this.gameObject.name.Equals("Player2")){
             SweepOffset = SweepOffset*-1;
@@ -27,9 +26,17 @@ public class CharacterAnim : MonoBehaviour {
         }
     }
 
-    void Update(){
-        //movement control
-        if(isAttack == false){//only works in case of no attacks
+    void Update() {
+
+        UpdateMovement();
+        HandSweep();
+        LowKick();
+        FlashPunching();
+
+    }
+
+    void UpdateMovement() {
+        if (!isAttack) { //only works in case of no attacks
             if((Input.GetKey(KeyCode.A) && this.gameObject.name.Equals("Player1")) || (Input.GetKey(KeyCode.J) && this.gameObject.name.Equals("Player2"))){
                 dirX = -1 * moveSpeed * Time.deltaTime;//algo for movement static type
                 transform.position = new Vector2 (transform.position.x + dirX, transform.position.y);
@@ -45,7 +52,9 @@ public class CharacterAnim : MonoBehaviour {
                 anim.SetBool ("Walking", false);
             }
         }
+    }
 
+    void HandSweep() {
         //Df+1 sweep
         if((Input.GetKey(KeyCode.T) && this.gameObject.name.Equals("Player1")) || (Input.GetKey(KeyCode.P) && this.gameObject.name.Equals("Player2"))){
             isHandSweep = true;
@@ -53,8 +62,8 @@ public class CharacterAnim : MonoBehaviour {
             anim.SetBool("HandSweeping",true);
         } else {
             anim.SetBool("HandSweeping",false);
-            if(isHandSweep == true && !anim.GetCurrentAnimatorStateInfo(0).IsName("hand sweep")){
-                if(isSkip == true){
+            if(isHandSweep && !anim.GetCurrentAnimatorStateInfo(0).IsName("hand sweep")){
+                if(isSkip){
                     transform.position = new Vector2 (transform.position.x + SweepOffset, transform.position.y);
                     isHandSweep = false;
                     isAttack = false;
@@ -64,7 +73,9 @@ public class CharacterAnim : MonoBehaviour {
                 }
             }
         }
+    }
 
+    void LowKick() {
         //low kick
         if((Input.GetKey(KeyCode.G) && this.gameObject.name.Equals("Player1")) || (Input.GetKey(KeyCode.Semicolon) && this.gameObject.name.Equals("Player2"))){
             isKick = true;
@@ -72,8 +83,8 @@ public class CharacterAnim : MonoBehaviour {
             anim.SetBool("LowKicking",true);
         } else {
             anim.SetBool("LowKicking",false);
-            if(isKick == true && !anim.GetCurrentAnimatorStateInfo(0).IsName("lowKick")){
-                if(isSkip == true){
+            if(isKick && !anim.GetCurrentAnimatorStateInfo(0).IsName("lowKick")){
+                if(isSkip){
                     transform.position = new Vector2 (transform.position.x + KickOffset, transform.position.y);
                     isKick = false;
                     isSkip = false;
@@ -83,15 +94,13 @@ public class CharacterAnim : MonoBehaviour {
                 }
             }
         }
+    }
 
+    void FlashPunching() {
         if((Input.GetKey(KeyCode.Y) && this.gameObject.name.Equals("Player1")) || (Input.GetKey(KeyCode.LeftBracket) && this.gameObject.name.Equals("Player2"))){
             anim.SetBool("FlashPunching",true);
         } else {
             anim.SetBool("FlashPunching",false);
         }
-
-
     }
-
-
 }
