@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class HealthBarChar : MonoBehaviour
@@ -24,8 +22,8 @@ public class HealthBarChar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.X)){
-            // DealDamage(10);
+        if (Input.GetKeyDown(KeyCode.Z)){
+            DealDamage(2,10);
         }
     }
 

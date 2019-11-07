@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,6 +7,9 @@ public class HealthBarChar2 : MonoBehaviour
     public float maxHealth { get; set; }
 
     public Slider healthbar;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,10 +19,18 @@ public class HealthBarChar2 : MonoBehaviour
         healthbar.value = CalculateHealth();
     }
 
+    // Update is called once per frame
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.X)){
+            DealDamage(1,10);
+        }
+    }
 
     public void DealDamage(int from, float damageVal){
         currentHealth -= damageVal;
-        healthbar.value = CalculateHealth(); Debug.Log("player2 hit " + currentHealth);
+        healthbar.value = CalculateHealth();
+        Debug.Log("player hit received from " + from);
         if(currentHealth <= 0){
             Die();
         }

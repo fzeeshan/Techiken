@@ -1,9 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class HitScript2 : MonoBehaviour
 {
+    public int player = 2;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,7 +15,9 @@ public class HitScript2 : MonoBehaviour
 
     }
     void OnTriggerEnter2D(Collider2D obj){
-        Debug.Log("Player 2 attacking.");
-        // obj.gameObject.GetComponent<HealthBarChar> ().DealDamage(15);
+        Debug.Log("Player " + player + " attacking.");
+        Debug.Log(gameObject.name);
+        if (!obj.gameObject.tag.Equals(gameObject.tag))
+        obj.gameObject.GetComponent<HealthBarChar> ().DealDamage(player, 10);
     }
 }
